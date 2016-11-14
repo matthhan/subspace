@@ -1,0 +1,8 @@
+*.Rproj
+*.un~
+*.class
+.Rproj.user
+.Rhistory
+.RData
+.Rbuildignore
+man

@@ -1,0 +1,21 @@
+Package: subspace
+Title: Interface to OpenSubspace
+Version: 1.0.4
+Date: 2015-09-30
+Authors@R: c( person("Marwan","Hassani",role=c("aut","cre"),email="rsubspace@cs.rwth-aachen.de"),
+             person("Matthias","Hansen",role=c("aut")),
+             person("Emmanuel","Müller",role="ctb"),
+             person("Ira","Assent",role="ctb"),
+             person("Stephan","Günnemann",role="ctb"),
+             person("Timm","Jansen",role="ctb"),
+             person("Thomas","Seidl",role="ctb"),
+             person("University of", "Waikato",role=c("ctb","cph")))
+Description: An interface to 'OpenSubspace', an open source framework for
+  evaluation and exploration of subspace clustering algorithms in WEKA 
+  (see <http://dme.rwth-aachen.de/de/opensubspace> for more
+  information).  Also performs visualization.
+Depends: R(>= 3.1.0)
+Imports: ggvis (>= 0.4.2), colorspace (>= 1.0), stringr (>= 1.0.0), rJava(>= 0.9)
+SystemRequirements: Java (>= 6)
+Encoding: UTF-8
+License: GPL-2
